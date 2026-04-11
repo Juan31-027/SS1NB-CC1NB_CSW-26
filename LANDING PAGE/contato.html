@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./curriculo.html">Curriculo</a></li>
+            <li><a href="./github.html">Github</a></li>
+            <li><a href="./serviços.html">Serviço</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <h1>Deseja entrar em contato?</h1>
+    <h2>Preencha o formulário a seguir</h2>
+
+    <form>
+        <legend>Selecione</legend><div class="selecione">
+            <input type="radio" name="cargo" id="rdFisica" value="p">
+            <label for="rdFisica">Física <br></label>
+
+            <input type="radio" name="cargo" id="rdJuridica" value="w">
+            <label for="rdJuridica">Juridica <br></label></div>
+        <p>
+            <label for="name">Nome</label><br>
+            <input type="text" name="Nome" id="name" required>
+        </p>
+        <p>
+            <label for="text">Telefone</label><br>
+            <input type="text"required placeholder="(99) 99999-9999">
+        </p>
+        <p>
+            <label for="textemail">E-mail</label><br>
+            <input type="text" name="E-mail" id="textemail" required>
+        </p>
+        <p>
+            <label for="password">Senha</label><br>
+            <input type="password" name="Senha" id="password" required>
+        </p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+    </form>
+
+</body>
+</html>

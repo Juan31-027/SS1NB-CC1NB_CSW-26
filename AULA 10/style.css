@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(182, 182, 182);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: rgb(102, 21, 21);
+}
+
+p{
+    color: blue;
+}
+
+nav{
+    display: flex;
+    gap: 700px;
+    padding: 30px;
+}
